@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhuvan Daily Tasks </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/myscript.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>📝 Bhuvan Daily Tasks</h2>
+    <ul id="task-list">
+      <li><input type="checkbox" id="task1" onchange="handleCheck(this)"><label for="task1">Wake up at 7:00</label>
+	   <span class="spark" id="spark-task1"></span> &#127774</li>
+      <li><input type="checkbox" id="task2" onchange="handleCheck(this)"><label for="task2">Brushing your teeth</label>🦷👅</li>
+      <li><input type="checkbox" id="task3" onchange="handleCheck(this)"><label for="task3">Have bath</label>🛀🏻</li>
+      <li><input type="checkbox" id="task4" onchange="handleCheck(this)"><label for="task4">Get ready to School</label>🏫</li>
+      <li><input type="checkbox" id="task5" onchange="handleCheck(this)"><label for="task3">Breakfast</label>🥞</li>
+      <li><input type="checkbox" id="task6" onchange="handleCheck(this)"><label for="task4">Going to School</label>🛵</li>
+
+    <div class="completed-tasks">
+      <h3>🎉 Completed Tasks:</h3>
+      <ul id="completed-list"></ul>
+    </div>
+  </div>
+
+  <!-- Sound Effect -->
+ <!-- Add this in the body section -->
+<audio id="clickSound" src="/goodjob.mp3" preload="auto"></audio>
+
+</body>
+</html>
